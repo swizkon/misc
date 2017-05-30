@@ -8,27 +8,56 @@
 //     "anniversaries": [{"First date": "2005-07-03T18:15:00.000Z"}]
 // };
 
-var anniversaries = [
-    {"2015-02-22T22:11:00.000Z": "Signes birthday"},
-    {"2009-04-04T03:42:00.000Z": "Desmonds birthday"},
-    {"2005-07-03T18:15:00.000Z": "Jonas & Jenny´s first date"},
-    {"2011-11-05T18:00:00.000Z": "Jonas & Jenny´s wedding day"},
-    {"1980-01-01T07:30:00.000Z": "Jenny´s birthday"},
-    {"1980-05-16T07:30:00.000Z": "Jonas birthday"},
-];
-
-
 var now = new Date();
+// now.setHours(1);
 
-now.setFullYear(now.getFullYear() + 1);
+var anniversaries =
+    {
+        "2015-02-22T22:11:00.000Z": "Signes birthday",
+        "2009-04-04T03:42:00.000Z": "Desmonds birthday",
+        "2005-07-03T18:15:00.000Z": "J+J first date",
+        "2011-11-05T18:00:00.000Z": "J+J wedding day",
+        "1980-06-01T07:30:00.000Z": "Jenny´s birthday",
+        "1980-05-16T07:30:00.000Z": "Jonas birthday"
+    };
 
-for(var o in anniversaries){
-    console.log(o);
+var sorted = [];
+
+var tempDate;
+var tempAniversaryCount;
+for (var anniversary in anniversaries) {
+    tempAniversaryCount = 0;
+    tempDate = new Date(anniversary);
+    while (tempDate.getTime() < now.getTime()) {
+        tempAniversaryCount += 1;
+        tempDate.setFullYear(tempDate.getFullYear() + 1);
+    }
+    sorted[sorted.length] = {
+        "title": anniversaries[anniversary],
+        "original": anniversary,
+        "next": tempDate.toJSON(),
+        "count": tempAniversaryCount
+    };
 }
-anniversaries.forEach(function(element) {
-    console.log(element);
-}, this);
+sorted.sort(function (a, b) {
+    return new Date(a.next).getTime() - new Date(b.next).getTime();
+});
 
-console.log(now);
+var a = moment(now);
+var b = moment(sorted[0].next);
+var days = b.diff(a, 'days');
+var sss = (days == 0) ? "Today!"
+        : (days == 1) ? "Tomorrow"
+        : days + " days from now";
 
-// d.anniversaries.forEach
+document.querySelector("#next-title").textContent = sorted[0].title;
+
+document.querySelector("#num-days").textContent = sss;
+
+
+
+var upcoming = "";
+for(var i = 1 ; i < 3 ; i++){
+    upcoming += "<h4>" + sorted[i].title + " <small>" + moment(sorted[i].next).diff(a, 'days') + " days</small></h4>";
+}
+document.querySelector("#upcoming").innerHTML = upcoming;
