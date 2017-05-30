@@ -1,9 +1,9 @@
 
-
-* {
-    font-size:14pt;
+body
+{
+    background-color: #ddd;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
