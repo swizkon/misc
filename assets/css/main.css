@@ -1,7 +1,7 @@
 
 body, div.jumbotron
 {
-    background-color: #ccc;
+    background-color: #999;
 }
 div.jumbotron
 {
@@ -11,7 +11,7 @@ div.jumbotron
 
 h1, h2, h3, h4 {
     text-align: center;
-    text-shadow: 0em 0em 0.2em #000;
+    text-shadow: 0em 0em 0.4em #000;
     margin-bottom: .5rem;
     font-weight: 100;
     color: #fff;
