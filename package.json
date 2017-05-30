@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/swizkon/celebrate-next-up/issues"
   },
-  "homepage": "https://github.com/swizkon/celebrate-next-up#readme"
+  "homepage": "https://github.com/swizkon/celebrate-next-up#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1"
+  }
 }

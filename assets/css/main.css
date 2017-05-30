@@ -1,0 +1,7 @@
+body
+{
+    background-image: url(../img/logo.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
