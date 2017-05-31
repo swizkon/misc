@@ -8,11 +8,18 @@
 //     "anniversaries": [{"First date": "2005-07-03T18:15:00.000Z"}]
 // };
 
+var formatDays = function(days) {
+return (days == 0) ? "Today!"
+        : (days == 1) ? "Tomorrow"
+        : days + " days";
+}
 
 var today = new Date(Date.now());
+today.setHours(0);
+today.setMinutes(0);
+// today = new Date(today.getFullYear(), today.getMonth(), today.getDate());
 
-today = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-console.log(today.toJSON());
+// console.log(today.toJSON());
 
 var anniversaries =
     {
@@ -20,9 +27,7 @@ var anniversaries =
         "2009-04-04T03:42:00.000Z": "Desmonds birthday",
         "2005-07-03T18:15:00.000Z": "J+J first date",
         "2011-11-05T18:00:00.000Z": "J+J wedding day",
-        "1980-06-01T12:00:00.000Z": "Jenny´s birthday",
-        "1980-06-02T12:00:00.000Z": "Jenny´s birthday",
-        "1980-06-10T12:00:00.000Z": "Jenny´s birthday",
+        "1980-06-01T08:00:00.000Z": "Jenny´s birthday",
         "1980-05-16T12:00:00.000Z": "Jonas birthday"
     };
 
@@ -49,22 +54,18 @@ sorted.sort(function (a, b) {
 });
 
 var a = moment(today.toJSON());
-console.log(a);
 var b = moment(sorted[0].next);
-console.log(b);
+
 var days = b.diff(a, 'days');
 var sss = (days == 0) ? "Today!"
         : (days == 1) ? "Tomorrow"
         : days + " days from now";
 
 document.querySelector("#next-title").textContent = sorted[0].title;
-
-document.querySelector("#num-days").textContent = sss;
-
-
+document.querySelector("#num-days").textContent = formatDays(days);
 
 var upcoming = "";
-for(var i = 1 ; i < 3 ; i++){
-    upcoming += "<h4>" + sorted[i].title + " <small>" + moment(sorted[i].next).diff(a, 'days') + " days</small></h4>";
+for(var i = 1 ; i < 4 ; i++){
+    upcoming += "<h4>" + sorted[i].title + " <small>" + formatDays(moment(sorted[i].next).diff(a, 'days')) + "</small></h4>";
 }
 document.querySelector("#upcoming").innerHTML = upcoming;
