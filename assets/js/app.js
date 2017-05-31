@@ -17,8 +17,8 @@ var anniversaries =
         "2009-04-04T03:42:00.000Z": "Desmonds birthday",
         "2005-07-03T18:15:00.000Z": "J+J first date",
         "2011-11-05T18:00:00.000Z": "J+J wedding day",
-        "1980-06-01T07:30:00.000Z": "Jenny´s birthday",
-        "1980-05-16T07:30:00.000Z": "Jonas birthday"
+        "1980-06-01T12:00:00.000Z": "Jenny´s birthday",
+        "1980-05-16T12:00:00.000Z": "Jonas birthday"
     };
 
 var sorted = [];
