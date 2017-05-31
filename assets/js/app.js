@@ -17,6 +17,7 @@ return (days == 0) ? "Today!"
 var today = new Date(Date.now());
 today.setHours(0);
 today.setMinutes(0);
+today.setSeconds(1);
 // today = new Date(today.getFullYear(), today.getMonth(), today.getDate());
 
 // console.log(today.toJSON());
@@ -57,9 +58,6 @@ var a = moment(today.toJSON());
 var b = moment(sorted[0].next);
 
 var days = b.diff(a, 'days');
-var sss = (days == 0) ? "Today!"
-        : (days == 1) ? "Tomorrow"
-        : days + " days from now";
 
 document.querySelector("#next-title").textContent = sorted[0].title;
 document.querySelector("#num-days").textContent = formatDays(days);
