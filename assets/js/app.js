@@ -8,8 +8,11 @@
 //     "anniversaries": [{"First date": "2005-07-03T18:15:00.000Z"}]
 // };
 
-var today = new Date();
-today = new Date(today.toISOString());
+
+var today = new Date(Date.now());
+
+today = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+console.log(today.toJSON());
 
 var anniversaries =
     {
@@ -45,8 +48,10 @@ sorted.sort(function (a, b) {
     return new Date(a.next).getTime() - new Date(b.next).getTime();
 });
 
-var a = moment(today.toISOString());
+var a = moment(today.toJSON());
+console.log(a);
 var b = moment(sorted[0].next);
+console.log(b);
 var days = b.diff(a, 'days');
 var sss = (days == 0) ? "Today!"
         : (days == 1) ? "Tomorrow"
