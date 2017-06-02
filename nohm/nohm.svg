@@ -5,16 +5,25 @@
                 <g id="main">
 		        <path fill="orange" d="M10,160 C10,10 400,10 400,160" />
 
-		        <path fill="orange" d="M10,159 400,159 400,200 10,200" />
+		        <path fill="white" d="M10,159 400,159 400,200 10,200" />
 
-		        <path fill="red" stroke="black" d="M10,200 C10,350 400,350 400,200" />
+		        <path fill="#51287a" d="M10,200 C10,350 400,350 400,200" />
+
+
+<path fill="#cccccc" d="M20,120 C20,60 60,20 120,20 L120,20 L160,20
+C230,20 260,50 260,120
+C260,160 230,220 160,220
+C50,220 20,190 20,120" />
 
 		        <!-- path fill="orange" id="curve" d="M100,250 C100,100 400,100 400,250" / -->
                
                     <!--path id="curve" d="M100,250 C100,100 400,100 400,250" / -->
-               <text x="200" y="200" font-family="serif" font-size="200" stroke="white" fill="#e50c81" text-anchor="middle">
+               <text x="130" y="170" font-family="serif" font-size="150" fill="#e50c81" text-anchor="middle">
 &#937;
 </text>
-<path stroke="black" fill="transparent" d="M20,125 C20,58 60,20 125,20 L125,20 L160,20 M160,20 C230,20 260,50 260,120 M260,120 L20,120 z" />
+<path stroke="#51287a" stroke-dasharraysss="10,2,5,2,5,2,10,2,10,2,10,2,10,2,5,2,10,2,10,2,10,2,5,2,5,2,5,2,5,2,10,2,10,2" stroke-width="10" fill="transparent" d="M20,120 C20,60 60,20 120,20 L120,20 L160,20
+C230,20 260,50 260,120
+C260,160 230,220 160,220
+C50,220 20,190 20,120" />
  </g>
-            </svg>
+</svg>
