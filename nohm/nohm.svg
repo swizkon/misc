@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 410" preserveAspectRatio="xMidYMid meet">
-                <title>NOHM logo 2.0</title>
-                <g id="main">
-		        <path fill="orange" d="M10,160 C10,10 400,10 400,160" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" preserveAspectRatio="xMidYMid meet">
+    <title>NOHM logo 2.0</title>
+    <defs>
+      <radialGradient id="RadialGradient1">
+        <stop offset="50%" stop-color="orange"/>
+        <stop offset="100%" stop-color="#e50c81"/>
+      </radialGradient>
+  </defs>
 
-		        <path fill="white" d="M10,159 400,159 400,200 10,200" />
+    <g id="main">
+    <path stroke="#51287a" stroke-dasharraysss="10,2,5,2,5,2,10,2,10,2,10,2,10,2,5,2,10,2,10,2,10,2,5,2,5,2,5,2,5,2,10,2,10,2" stroke-width="20" fill="transparent"
+ d="M20,120 C20,60 60,20 120,20 L120,20 L160,20
+C230,20 260,50 260,120 L260,120 L260,160
+C260,200 230,260 160,260 L160,260 L120,260
+C50,260 20,190 20,160 z" />
+<path 
+fill="#dddddd"
+d="M20,120 C20,60 60,20 120,20 L120,20 L160,20
+C230,20 260,50 260,120 L260,120 L260,160
+C260,200 230,260 160,260 L160,260 L120,260
+C50,260 20,190 20,160 z" />
+<rect stroke="#51287a" stroke-width="20" x="10" y="10" rx="100" ry="100" width="250" height="250" fill="url(#RadialGradient1)"/> 
 
-		        <path fill="#51287a" d="M10,200 C10,350 400,350 400,200" />
-
-
-<path fill="#cccccc" d="M20,120 C20,60 60,20 120,20 L120,20 L160,20
-C230,20 260,50 260,120
-C260,160 230,220 160,220
-C50,220 20,190 20,120" />
-
-		        <!-- path fill="orange" id="curve" d="M100,250 C100,100 400,100 400,250" / -->
-               
-                    <!--path id="curve" d="M100,250 C100,100 400,100 400,250" / -->
-               <text x="130" y="170" font-family="serif" font-size="150" fill="#e50c81" text-anchor="middle">
+<text stroke="" x="135" y="210" font-family="serif" font-size="230" fill="#e50c81" text-anchor="middle">
 &#937;
 </text>
-<path stroke="#51287a" stroke-dasharraysss="10,2,5,2,5,2,10,2,10,2,10,2,10,2,5,2,10,2,10,2,10,2,5,2,5,2,5,2,5,2,10,2,10,2" stroke-width="10" fill="transparent" d="M20,120 C20,60 60,20 120,20 L120,20 L160,20
-C230,20 260,50 260,120
-C260,160 230,220 160,220
-C50,220 20,190 20,120" />
+<path stroke="#51287a" stroke-width="15" fill="transparent" d="M35,220 L243,45 z" />
+
  </g>
 </svg>
