@@ -1,7 +1,7 @@
 
 body, div.jumbotron
 {
-    background-color: #999;
+    background-color: #ccc;
 }
 div.jumbotron
 {
@@ -16,4 +16,12 @@ h1, h2, h3, h4 {
     font-weight: 100;
     color: #fff;
     text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+body, div.jumbotron
+{
+    background-color: #999;
+}
 }
