@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 410" preserveAspectRatio="xMidYMid meet">
+                <title>NOHM logo 2.0</title>
+                <g id="main">
+		        <path fill="orange" d="M10,160 C10,10 400,10 400,160" />
+
+		        <path fill="orange" d="M10,159 400,159 400,200 10,200" />
+
+		        <path fill="red" stroke="black" d="M10,200 C10,350 400,350 400,200" />
+
+		        <!-- path fill="orange" id="curve" d="M100,250 C100,100 400,100 400,250" / -->
+               
+                    <!--path id="curve" d="M100,250 C100,100 400,100 400,250" / -->
+               <text x="200" y="200" font-family="serif" font-size="200" stroke="white" fill="#e50c81" text-anchor="middle">
+&#937;
+</text>
+<path stroke="black" fill="transparent" d="M20,125 C20,58 60,20 125,20 L125,20 L160,20 M160,20 C230,20 260,50 260,120 M260,120 L20,120 z" />
+ </g>
+            </svg>

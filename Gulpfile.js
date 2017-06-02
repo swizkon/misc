@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var connect = require('gulp-connect');
 
 var src = './';
-var filesToReload = src + '/**/*.{html,js,css}';
+var filesToReload = src + '/**/*.{html,js,css,svg}';
 
 gulp.task('connect', function() {
   connect.server({
