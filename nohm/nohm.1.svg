@@ -10,25 +10,23 @@
   </defs>
 
     <g id="main">
-    <!-- path stroke="#51287a" stroke-dasharraysss="10,2,5,2,5,2,10,2,10,2,10,2,10,2,5,2,10,2,10,2,10,2,5,2,5,2,5,2,5,2,10,2,10,2" stroke-width="20" fill="transparent"
+    <path stroke="#51287a" stroke-dasharraysss="10,2,5,2,5,2,10,2,10,2,10,2,10,2,5,2,10,2,10,2,10,2,5,2,5,2,5,2,5,2,10,2,10,2" stroke-width="20" fill="transparent"
  d="M20,120 C20,60 60,20 120,20 L120,20 L160,20
 C230,20 260,50 260,120 L260,120 L260,160
 C260,200 230,260 160,260 L160,260 L120,260
-C50,260 20,190 20,160 z" /-->
-<!-- path 
+C50,260 20,190 20,160 z" />
+<path 
 fill="#dddddd"
 d="M20,120 C20,60 60,20 120,20 L120,20 L160,20
 C230,20 260,50 260,120 L260,120 L260,160
 C260,200 230,260 160,260 L160,260 L120,260
-C50,260 20,190 20,160 z" / -->
-
+C50,260 20,190 20,160 z" />
 <rect stroke="#51287a" stroke-width="20" x="10" y="10" rx="100" ry="100" width="250" height="250" fill="url(#RadialGradient1)"/> 
 
-<text stroke="" x="130" y="210" font-family="serif" font-size="220" fill="#e50c81" text-anchor="middle">
-&#937;
+<text stroke="" x="135" y="210" font-family="serif" font-size="230" fill="#e50c81" text-anchor="middle">
+&#937;ø
 </text>
-
-<path stroke="#51287a" stroke-width="5" fill="transparent" d="M35,220 L243,45 z" />
+<path stroke="#51287a" stroke-width="15" fill="transparent" d="M35,220 L243,45 z" />
 
  </g>
 </svg>

@@ -22,13 +22,16 @@ C230,20 260,50 260,120 L260,120 L260,160
 C260,200 230,260 160,260 L160,260 L120,260
 C50,260 20,190 20,160 z" / -->
 
-<rect stroke="#51287a" stroke-width="20" x="10" y="10" rx="100" ry="100" width="250" height="250" fill="url(#RadialGradient1)"/> 
+<!-- rect stroke="#51287a" stroke-width="20" x="10" y="10" rx="100" ry="100" width="250" height="250" fill="url(#RadialGradient1)"/ --> 
 
-<text stroke="" x="130" y="210" font-family="serif" font-size="220" fill="#e50c81" text-anchor="middle">
+<text stroke="" x="140" y="170" font-family="serif" font-size="120" fill="#e50c81" text-anchor="middle">
 &#937;
 </text>
 
-<path stroke="#51287a" stroke-width="5" fill="transparent" d="M35,220 L243,45 z" />
+<text  transform="scale(-1,1)rotate(90)" stroke="" x="135" y="210" font-family="serif" font-size="320" fill="#51287a" text-anchor="middle">
+ø
+</text>
+<!-- path stroke="#51287a" stroke-width="15" fill="transparent" d="M35,220 L243,45 z" / -->
 
  </g>
 </svg>
