@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" preserveAspectRatio="xMidYMid meet">
+    <title>NOHM logo</title>
+    <defs>
+      <radialGradient id="RadialGradient1">
+        <stop offset="50%" stop-color="orange"/>
+        <stop offset="100%" stop-color="#e50c81"/>
+      </radialGradient>
+  </defs>
+
+    <g id="main">
+
+<rect stroke="#51287a" stroke-width="20" x="10" y="10" rx="100" ry="100" width="250" height="250" fill="#e50c81"/> 
+
+<text stroke="" x="140" y="210" font-family="serif" font-size="220" fill="#ffffff" text-anchor="middle">
+&#937;
+</text>
+
+<path stroke="#51287a" stroke-width="10" fill="transparent" d="M35,220 L243,45 z" />
+
+ </g>
+</svg>
