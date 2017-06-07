@@ -8,15 +8,11 @@
         <stop offset="100%" stop-color="#cccccc"/>
       </radialGradient>
   </defs>
-
     <g id="main">
 <rect stroke="#51287a" stroke-width="20" x="10" y="10" rx="100" ry="100" width="250" height="250" fill="url(#RadialGradient1)"/> 
-
-<text stroke="" x="130" y="210" font-family="serif" font-size="220" fill="#e50c81" text-anchor="middle">
+<text stroke="" x="140" y="210" font-family="serif" font-size="220" fill="#e50c81" text-anchor="middle">
 &#937;
 </text>
-
 <path stroke="#51287a" stroke-width="10" fill="transparent" d="M35,220 L243,45 z" />
-
  </g>
 </svg>
