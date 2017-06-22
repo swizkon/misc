@@ -2,13 +2,16 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+  viewBox="0 0 1000.000000 1000.000000"
  preserveAspectRatio="xMidYMid meet">
+ <!-- width="1024.000000pt" height="1024.000000pt" -->
 <metadata>
 Created by potrace 1.14, written by Peter Selinger 2001-2017
 </metadata>
-<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+<rect stroke="#51287a" stroke-width="50" x="50" y="50" rx="500" ry="300" width="874" height="874" fill="#e50c81"/> 
+
+<g transform="translate(180.000000,780.000000) scale(0.120000,-0.120000)"
+fill="#ffffff" stroke="none">
 <path d="M2455 4929 c-900 -40 -1663 -531 -1964 -1262 -161 -392 -203 -869
 -114 -1292 34 -166 83 -307 157 -460 100 -203 178 -315 370 -529 242 -271 314
 -469 209 -578 l-27 -28 -302 0 c-379 0 -421 -7 -477 -82 -27 -37 -34 -135 -12
@@ -23,4 +26,7 @@ fill="#000000" stroke="none">
 60 285 60 525 1 254 -13 366 -69 585 -196 762 -815 1308 -1675 1479 -214 42
 -410 56 -655 45z"/>
 </g>
+
+<!-- path stroke="#51287a" stroke-width="10" fill="transparent" d="M135,820 L743,45 z" / -->
+<path stroke="#51287a" stroke-width="25" fill="transparent" d="M70,730 L880,240 z" />
 </svg>
