@@ -4,10 +4,17 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 1000.000000 1000.000000"
  preserveAspectRatio="xMidYMid meet">
-<rect stroke="#51287a" stroke-width="50" x="50" y="50" rx="500" ry="350" width="874" height="874" fill="#e50c81"/> 
+     <defs>
+      <radialGradient id="RadialGradient1">
+        <stop offset="50%" stop-color="orange"/>
+        <stop offset="100%" stop-color="#e50c81"/>
+      </radialGradient>
+  </defs>
+
+<rect stroke="#51287a" stroke-width="50" x="50" y="50" rx="500" ry="400" width="874" height="874" fill="url(#RadialGradient1)" /> 
 
 <g transform="translate(180.000000,780.000000) scale(0.120000,-0.120000)"
-fill="#ffffff" stroke="none">
+fill="#e50c81" stroke="none">
 <path d="M2455 4929 c-900 -40 -1663 -531 -1964 -1262 -161 -392 -203 -869
 -114 -1292 34 -166 83 -307 157 -460 100 -203 178 -315 370 -529 242 -271 314
 -469 209 -578 l-27 -28 -302 0 c-379 0 -421 -7 -477 -82 -27 -37 -34 -135 -12
@@ -24,5 +31,5 @@ fill="#ffffff" stroke="none">
 </g>
 
 <!-- path stroke="#51287a" stroke-width="10" fill="transparent" d="M135,820 L743,45 z" / -->
-<path stroke="#51287a" stroke-width="25" fill="transparent" d="M70,730 L880,240 z" />
+<path stroke="#51287a" stroke-width="25" fill="transparent" d="M90,740 L880,240 z" />
 </svg>
