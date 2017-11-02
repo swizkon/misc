@@ -2,14 +2,14 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 1000.000000 1000.000000"
+  viewBox="0 0 1200.000000 1200.000000"
  preserveAspectRatio="xMidYMid meet">
 <rect id="orange-circle" stroke="#ffffff" stroke-width="50" x="50" y="50" rx="400" ry="400" width="874" height="874" fill="#e50c81"/> 
 
   <animate id="anim1" href="#orange-circle"
            attributeName="rx"
            from="400"
-           to="300" 
+           to="350" 
            dur="2s" fill="freeze" />
            
   <!-- animate id="anim2" href="#orange-circle"
@@ -39,9 +39,21 @@ fill="#ffffff" stroke="none">
 <path stroke="#ffffff" stroke-width="25" fill="transparent" d="M55,700 L900,310 z" />
 
 
-  <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+  <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80) scale(5) translate(100,140)">
     <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#000">
-      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="1s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="2s" repeatCount="indefinite" />
+    </path>
+  </g>
+  
+  <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80) scale(5) translate(100,140)">
+    <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#000">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" begin="1s" dur="2s" repeatCount="indefinite" />
+    </path>
+  </g>
+  
+  <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80) scale(5) translate(100,140)">
+    <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#000">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" begin="1s" dur="3s" repeatCount="indefinite" />
     </path>
   </g>
 
