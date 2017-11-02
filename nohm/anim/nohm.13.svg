@@ -4,18 +4,8 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 1200.000000 1200.000000"
  preserveAspectRatio="xMidYMid meet">
-<rect id="orange-circle" stroke="#ffffff" stroke-width="50" x="50" y="50" rx="400" ry="400" width="874" height="874" fill="#e50c81"/> 
+<rect id="orange-circle" stroke="#ffffff" stroke-width="50" x="50" y="50" rx="300" ry="400" width="874" height="874" fill="#e50c81"/> 
 
-  <animate id="anim1" href="#orange-circle"
-           attributeName="rx"
-           values="350;400;350"
-           dur="2s" fill="freeze" repeatCount="indefinite" />
-           
-  <animate id="anim1" href="#orange-circle"
-           attributeName="ry"
-           values="350;400;350"
-           dur="2s" fill="freeze" repeatCount="indefinite" />
-           
 <g transform="translate(180.000000,780.000000) scale(0.120000,-0.120000)"
 fill="#ffffff" stroke="none">
 <path d="M2455 4929 c-900 -40 -1663 -531 -1964 -1262 -161 -392 -203 -869
